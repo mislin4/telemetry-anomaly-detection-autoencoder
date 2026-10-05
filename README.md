@@ -16,3 +16,5 @@ Gerekli kütüphaneleri yükleyin ve modeli çalıştırın:
 ```bash
 pip install torch numpy pandas scikit-learn
 python model_and_pipeline.py
+## Calibration Notes
+Reconstruction error threshold set using 99th percentile of validation loss. Evaluating Gaussian KDE for dynamic multi-modal thresholding.
